@@ -11,6 +11,7 @@ const useStyles = makeStyles({
   },
   circle: {
     justifyContent: "center",
+    position: "relative",
     alignItems: "center",
     display: "flex",
     width: 500,
@@ -32,8 +33,8 @@ const useStyles = makeStyles({
   },
   badgeStyle: {
     position: "absolute",
-    top: "5%",
-    right: "35%",
+    top: -28,
+    left: "55%",
     paddingLeft: 20,
     paddingRight: 20,
     paddingTop: 10,
